@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+    box-shadow: unset !important;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary: ;
+    --red: ;
+    --green: ;
+    --blue: ;
+    --sky: ;
+    --orange: ;
+    --purple: ;
+    --gray: ;
+}
+/* --------------------
+header section start
+-------------------- */
+
+/* --------------------
+header section end
+-------------------- */
+
+/* --------------------
+1st section start
+-------------------- */
+
+/* --------------------
+1st section end
+-------------------- */
+
+/* --------------------
+2nd section start
+-------------------- */
+
+/* --------------------
+2nd section end
+-------------------- */
+
+/* --------------------
+3rd section start
+-------------------- */
+
+/* --------------------
+3rd section end
+-------------------- */
+
+/* --------------------
+4th section start
+-------------------- */
+
+/* --------------------
+4th section end
+-------------------- */
+
+/* --------------------
+5th section start
+-------------------- */
+
+/* --------------------
+5th section end
+-------------------- */
+
+/* --------------------
+footer section start
+-------------------- */
+
+/* --------------------
+footer section end
+-------------------- */
