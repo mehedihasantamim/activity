@@ -10,13 +10,6 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-:active,
-:hover,
-:focus{
-    outline: 0 !important;
-    outline-offset: 0;
-    box-shadow: unset !important;
-}
 a,
 a:hover{
     text-decoration: none;
@@ -26,68 +19,142 @@ ol{
     margin: 0;
     padding: 0;
 }
-:root{
-    --primary: ;
-    --red: ;
-    --green: ;
-    --blue: ;
-    --sky: ;
-    --orange: ;
-    --purple: ;
-    --gray: ;
+.text-main{
+    color: #3EC2A0 !important;
+}
+.bg-main{
+    background-color: #3EC2A0 !important;
+}
+.text-second{
+    color: #17a2b8 !important;
+}
+.bg-second{
+    background-color: #17a2b8 !important;
 }
 /* --------------------
 header section start
 -------------------- */
-
+header{
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+header::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.650);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.z-300{
+    z-index: 300;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item .active{
+    color: #3EC2A0 !important;
+}
+.nav-link:hover{
+    color: #3EC2A0 !important;
+}
+.nav-link:focus{
+    color: black !important;
+}
 /* --------------------
 header section end
 -------------------- */
-
 /* --------------------
-1st section start
+banner section start
 -------------------- */
-
+.banner{
+    padding: 9rem 0rem;
+}
+.btnHoverBnr{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid white;
+}
+.btnHoverBnr:hover{
+    background-color: #3EC2A0;
+    border: 2px solid #3ec2a0;
+}
 /* --------------------
-1st section end
+banner section end
 -------------------- */
-
 /* --------------------
-2nd section start
+about section start
 -------------------- */
-
+hr{
+    height: 3px !important;
+    width: 5rem;
+    margin: auto;
+    color: #17a2b8;
+    opacity: 1;
+}
+.btnHoverAbt{
+    background-color: #17a2b8;
+    border: 2px solid ;
+    color: white;
+}
+.btnHoverAbt:hover{
+    background-color: #17a3b800;
+    border: 2px solid black;
+    color: color;
+}
 /* --------------------
-2nd section end
+about section end
 -------------------- */
-
 /* --------------------
-3rd section start
+content section start
 -------------------- */
-
+.content{
+    background-color: #17a2b8;
+}
+.btnHoverCntn{
+    font-size: 16px;
+    padding: 15px 35px;
+    background-color: white;
+    color: #17a2b8;
+}
+.btnHoverCntn:hover{
+    background-color: #333;
+    color: white;
+}
+.btnHoverCntn2{
+    font-size: 16px;
+    padding: 15px 35px;
+    background-color: #333;
+    color: white;
+}
+.btnHoverCntn2:hover{
+    background-color: white;
+    color: black;
+}
 /* --------------------
-3rd section end
+content section end
 -------------------- */
-
-/* --------------------
-4th section start
--------------------- */
-
-/* --------------------
-4th section end
--------------------- */
-
-/* --------------------
-5th section start
--------------------- */
-
-/* --------------------
-5th section end
--------------------- */
-
 /* --------------------
 footer section start
 -------------------- */
-
+footer{
+    background-color: #191919;
+}
+.fa-facebook-f{
+    color: #999;
+    background-color: #222;
+    padding: 15px;
+    margin: 0px 5px;
+}
+.fa-facebook-f:hover{
+    color: white;
+}
+.copyright{
+    color: #999;
+}
 /* --------------------
 footer section end
 -------------------- */
