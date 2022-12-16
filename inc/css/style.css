@@ -138,6 +138,25 @@ content section start
 content section end
 -------------------- */
 /* --------------------
+about section start
+-------------------- */
+.subBtn{
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+.subBtn:hover{
+    background-color: #17a3b800;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+/* --------------------
+about section end
+-------------------- */
+/* --------------------
 footer section start
 -------------------- */
 footer{
